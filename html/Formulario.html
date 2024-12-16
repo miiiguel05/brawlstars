@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>BRAWL STARS</title>
+    <link rel="stylesheet" href="../estilos/formularioEstilo.css">
+    <link rel="stylesheet" href="../estilos/comun.css">
+
+
+</head>
+<body>
+
+<header>
+    <div id="tituloWeb">
+        <img src="../imagenes/iconoBS.png" alt="icono bs">
+        <h1>B R A W L     S T A R S</h1>
+        <img src="../imagenes/iconoBS.png" alt="icono bs">
+    </div>
+    <nav>
+        <ul>
+                <li><a href="../index.html" id="nav1">Inicio</a></li>
+                <li><a href="Clasificacion.html" id="nav2">Clasificacion</a></li>
+                <li><a href="Videos.html" id="nav3">Videos</a></li>
+                <li><a href="Mapa.html" id="nav4">Brawlers</a></li>
+                <li><a href="Formulario.html" id="nav5">Contacta</a></li>
+                <li><a href="Mas.html" id="nav6">Contenido adicional</a></li>
+        </ul>
+    </nav>
+</header>
+
+   <main>
+       <h1>¿Eres un apasionado al BrawlStars? ¿Te gustaría participar en la BrawlCup?</h1>
+       <h2>Rellena los datos para competir en la próxima BrawlCup</h2>
+           <form action="https://httpbin.org/post" method="post" autocomplete="on">
+               <fieldset>
+                   <legend>Datos Personales</legend>
+
+                       <label for="Nombre">Nombre:</label><br>
+                       <input type="text" id="Nombre" name="Nombre" value="" required><br><br>
+
+                       <label for="apellidos">Apellidos:</label><br>
+                       <input type="text" id="apellidos" name="Apellidos" value="" required><br><br>
+
+                       <label for="email">Email:</label><br>
+                       <input type="email" id="email" name="Correo Electronico" placeholder="example@domain.com" required><br><br>
+
+
+                       <label for="date">Fecha de nacimiento:</label><br>
+                       <input type="date" id="date" name="FechaNacimiento"><br><br>
+
+               </fieldset>
+               <fieldset>
+                   <legend>Datos BrawlStars</legend>
+                       <label for="text1">Cuéntanos tu experencia en el competitvo de brawl stars:</label><br>
+                       <input type="text" id="text1" name="Experiencia" maxlength="50" placeholder="(max 50 palabras)"><br><br>
+
+                       <label for="text2">¿En qué dispositivo juegas?</label><br>
+                       <input type="text" id="text2" name="Dispositivo" list="suggestions"><br>
+                       <datalist id="suggestions">
+                           <option value="IOS">
+                           <option value="Android">
+                           <option value="Otros">
+                       </datalist><br>
+
+                       <label for="dropdown">Modo de juego favorito:</label><br>
+                       <select id="dropdown" name="Modo de juego" required>
+                           <option value="" disabled selected>Selecciona tu modo de juego</option>
+                           <option value="Balon Brawl">Balon Brawl</option>
+                           <option value="Noqueo">Noqueo</option>
+                           <option value="Supervivencia">Superviviencia</option>
+                       </select><br><br>
+
+                       <label>¿Cómo te gusta jugar más?</label>
+                       <input type="radio" id="radio1" name="Preferencia de juego" value="En equipo">
+                       <label for="radio1">En equipo</label>
+                       <input type="radio" id="radio2" name="Preferencia de juego" value="Solo">
+                       <label for="radio2">Solo</label><br><br><br><br>
+
+
+                       <input type="checkbox" id="checkbox" name="¿Ganar?" checked>
+                       <label for="checkbox">Marca esta casilla si crees que vas a ganar la BrawlCup</label><br><br>
+
+
+                       <label for="textarea">¿Por qué crees que debes estar en la BrawlCup? ¿Qué ofreces que otros jugadores no tengan?</label><br>
+                       <textarea id="textarea" name="Cualidades destacables" rows="4" cols="50" placeholder="Escribe aquí" required></textarea><br><br>
+
+               </fieldset>
+               <fieldset>
+                   <legend>¡Vamos!</legend>
+                       <button type="submit">Enviar</button>
+                       <button type="reset">Borrar</button>
+               </fieldset>
+           </form>
+
+       <section>
+           <h2>¿Dónde estamos?</h2>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112851.0825726404!2d20.01401501017256!3d67.60706323786718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x45d30036254ca145%3A0xcedc4eb30d91aca1!2sLaponia%20finlandesa%2C%20Finlandia!5e0!3m2!1ses!2ses!4v1734001845463!5m2!1ses!2ses" width="480" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       </section>
+       <section>
+           <a href="../documentos/memoria.pdf" id="masInfo">Más información</a>
+       </section>
+   </main>
+<hr>
+<footer>
+    <p>Autores: Miguel Gatica Pinteño y Alejandro Martínez Velasco |  Brawl stars © 2024 |
+        <a href="#">Política de privacidad</a> | <a href="#">Términos de uso</a>
+    </p>
+
+    <p>
+        Síguenos en
+        <a href="https://www.instagram.com/brawlstars/" target="_blank" id="instagram">
+            <img src="../imagenes/instagram.png" alt="instagram" >
+        </a>
+        <a href="https://www.tiktok.com/@brawlstars?lang=es" target="_blank" id="tiktok">
+            <img src="../imagenes/tiktok.png" alt="tiktok" >
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>

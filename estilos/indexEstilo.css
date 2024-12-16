@@ -1,0 +1,60 @@
+
+#principal {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+main {
+    padding: 20px;
+    background-color: #4d90d2;
+    float: left;
+    width: 65%;
+    box-sizing: border-box;
+}
+
+main h2 {
+    color: #ffd700;
+}
+
+main p {
+    line-height: 1.6;
+}
+
+main img {
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    margin-left: 35%;
+}
+
+aside {
+    width: 30%;
+    float: right;
+    background-color: #4d90d2;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.7);
+}
+
+aside h3 {
+    color: #ffd700;
+}
+
+aside a img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+aside a img:hover {
+    transform: scale(1.1);
+}
+
+/* Limpiar floats */
+div::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
