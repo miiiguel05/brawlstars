@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+Grund:wght@100..400&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+DE+Grund:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sixtyfour+Convergence&display=swap');/*
+font-family: "Montserrat", sans-serif;
+font-family: "Agu Display", serif;
+  font-family: "Sixtyfour Convergence", serif;
+  font-family: "Playwrite DE Grund", serif;
+  font-family: "Open Sans", serif;
+  font-family: "Roboto Mono", serif;
+
+
+
+
+ */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../imagenes/fondoBS.png");
+    background-size: cover; /* Asegura que la imagen cubra toda la página */
+    background-position: center center; /* Centra la imagen en la pantalla */
+    background-attachment: fixed; /* Fija la imagen de fondo al desplazarse */
+    font-family: "Montserrat", sans-serif;
+}
+
+header h1{
+    font-family: "Agu Display", serif;
+    font-size: 3em;
+    text-align: center;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-bottom: 3px solid #999;
+    padding: 0;
+}
+
+#tituloWeb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#tituloWeb img {
+    height: 50px;
+    width: auto;
+    margin: 0;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+#tituloWeb h1 {
+    margin: 0 auto;
+    font-family: "Agu Display", serif;
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+
+/* Navegación */
+nav {
+    width: 100%;
+    background-color: #d4e0fa;
+    border-top: 3px solid #999;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    font-family: "Roboto Mono", serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #4d90d2;
+    color: white;
+}
+
+
+#nav6:hover, #nav5:hover, #nav4:hover, #nav3:hover, #nav2:hover, #nav1:hover{
+    background-color: #fff0cc;
+    color: #f39c12;
+}
+
+
+
+footer {
+    margin-top: 50px;
+}
+
+
+#instagram img, #tiktok img {
+    width: 3%;
+    height: 3%;
+}
+
+
+
+
+
+
+/* Estilo para la línea horizontal */
+hr {
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+
+    font-size: 20px;
+    color: #333;
+    border-top: 3px solid #999;
+}
+
+/* Estilo para el texto */
+footer p {
+    margin: 10px 0;
+}
+
+/* Estilo para los enlaces */
+footer a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: #0056b3;
+}
+
+/* Estilo para las imágenes de redes sociales */
+footer img {
+    width: 3%;
+    height: 3%;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
+
+/* Espaciado entre redes sociales */
+footer #instagram {
+    margin-right: 10px;
+}
+
+footer #tiktok {
+    margin-left: 10px;
+}

@@ -1,0 +1,23 @@
+.mainEscucha {
+    color: #bea7e3;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #5c42a9;
+}
+audio {
+    width: 50%;
+    margin-top: 15px;
+    background-color: #efd108;
+    border: 2px solid #efd108;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 30%;
+}
+main {
+    margin-left: 25%;
+    width: 40%;
+}
+#twitter {
+    margin-left: 35%;
+}
